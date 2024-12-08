@@ -338,7 +338,7 @@ ul a:hover {
   color: #212529;
 }
 .blogdiv {
-  display: block; /* Keep it always in the DOM */
+  display: block;
   padding: 1vw;
   padding-top: 0%;
   background-color: white;
@@ -351,6 +351,7 @@ ul a:hover {
   transform: translateY(1vw);
   transition: opacity 0.3s ease, transform 0.3s ease;
   pointer-events: none;
+  line-height: 3;
 }
 
 .c2 {
