@@ -472,12 +472,15 @@ ul a:hover {
     text-align: center;
   }
   .logofoot {
+    width: 100%;
+    justify-content: center;
     display: flex;
     align-items: center;
   }
   .footertitle {
     font-size: 4vw;
     white-space: nowrap;
+    margin: auto;
   }
 
   .logo {
