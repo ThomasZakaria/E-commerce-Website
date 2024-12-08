@@ -24,7 +24,7 @@ body {
 }
 .nav1cont {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -101,7 +101,7 @@ body {
   font-weight: bolder;
 }
 .btn {
-  margin-left: 3vw;
+  margin-left: 5%;
   display: flex;
   justify-content: flex-start;
 }
