@@ -457,6 +457,9 @@ ul a:hover {
   }
   #learn3 {
     font-size: 4vw;
+    padding: 2vw;
+    width: max-content;
+    white-space: nowrap;
   }
   footer {
     height: auto;
