@@ -401,7 +401,7 @@ ul a:hover {
 .down {
   position: absolute;
   z-index: 2;
-  top: 12vw;
+  top: 15vw;
   left: 1vw;
   width: 30vw;
   display: none;
@@ -581,5 +581,8 @@ ul a:hover {
   }
   .nav2 {
     display: none;
+  }
+  .nav1cont {
+    padding-top: 1vw;
   }
 }
