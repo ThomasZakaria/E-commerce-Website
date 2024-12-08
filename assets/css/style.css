@@ -410,6 +410,7 @@ ul a:hover {
     height: 100vh;
     margin-top: -2vh;
   }
+
   .image-container {
     width: 80vw;
   }
@@ -427,6 +428,7 @@ ul a:hover {
     width: max-content;
     white-space: nowrap;
   }
+
   .content-section2 {
     flex-direction: column;
     height: auto;
@@ -441,7 +443,7 @@ ul a:hover {
   }
   .description {
     font-size: 4vw;
-    line-height: 1;
+    line-height: 7vw;
   }
   .text {
     height: auto;
@@ -463,7 +465,7 @@ ul a:hover {
   }
   footer {
     height: auto;
-    gap: 10%;
+    gap: 10vw;
   }
   #center {
     text-align: center;
@@ -477,7 +479,7 @@ ul a:hover {
   }
 
   .logo {
-    height: 8vw;
+    height: 10vw;
     padding-bottom: 5vw;
   }
   ul a,
@@ -530,13 +532,13 @@ ul a:hover {
   }
   .title {
     font-size: 4vw;
-    line-height: 2vw;
+    line-height: 10vw;
   }
   .hero-text {
     position: absolute;
     width: 70vw;
-    top: 60vw;
-    left: 5vw;
+    top: 70vw;
+    line-height: 20vw;
   }
   .hero-section {
     height: 100vh;
@@ -559,6 +561,13 @@ ul a:hover {
   .nav1 a {
     font-size: 2.2vw;
     font-weight: bolder;
+  }
+  .learnmore {
+    font-size: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: max-content;
+    white-space: nowrap;
   }
   .down a {
     padding: 4vw;
