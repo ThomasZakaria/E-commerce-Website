@@ -81,9 +81,7 @@ body {
   border: solid white 0.05px;
   transform: scale(1.05);
 }
-.nav2btn {
-  display: none;
-}
+
 .lrnmorecont {
   display: flex;
   align-items: center;
@@ -388,16 +386,14 @@ ul a:hover {
   line-height: 1.5vw;
   color: #212529;
 }
-.nav2btn img {
-  display: block;
-}
+
 .nav2btn {
   width: 8vw;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #007a5b00;
   border: none;
+  display: none;
 }
 .down {
   position: absolute;
@@ -445,6 +441,9 @@ ul a:hover {
     flex-direction: column;
     height: auto;
     padding-bottom: 5vw;
+  }
+  .nav2btn img {
+    display: block;
   }
   .inside {
     width: 80vw;
