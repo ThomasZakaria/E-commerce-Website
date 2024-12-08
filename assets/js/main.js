@@ -6,7 +6,7 @@ if (window.innerWidth <= 576) {
   document.getElementById("bg").src = "assets/images/mobilebackground.webp";
   document.getElementById("nav2btn").style.display = "block";
 }
-document.getElementById("nav2btn").onclick = (event) => {
+document.getElementById("nav2btn").onclick = () => {
   event.preventDefault();
   const downElement = document.getElementById("down");
   if (downElement.style.display === "block") {

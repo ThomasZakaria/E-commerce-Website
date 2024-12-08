@@ -22,10 +22,9 @@ body {
   opacity: 0.8;
 }
 .nav1cont {
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 /* Hero Section */
 .hero-section {
@@ -91,12 +90,6 @@ body {
 /* Navigation Bars */
 .nav1,
 .nav1 a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 1vw;
-  height: 3vw;
   background: #32404d;
   color: white;
   font-weight: bolder;
@@ -105,6 +98,10 @@ body {
 .nav1 a {
   font-size: 1vw;
   font-weight: bolder;
+}
+.btn {
+  display: flex;
+  justify-content: center;
 }
 .learnmore {
   border-bottom: solid 0.1vw;
@@ -116,7 +113,7 @@ body {
 .nav1 a {
   padding: 0%;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  margin-left: 3vw;
+  display: block;
 }
 
 .colored {
@@ -394,7 +391,7 @@ ul a:hover {
   color: #212529;
 }
 .nav2btn {
-  width: 7vw;
+  width: 8vw;
 
   background-color: #007a5b00;
   border: none;
@@ -416,10 +413,10 @@ ul a:hover {
     padding-bottom: 5vw;
   }
   .image-container {
-    width: 70vw;
+    width: 80vw;
   }
   .text-content {
-    width: 70vw;
+    width: 80vw;
   }
   .text-content p {
     font-size: 4vw;
@@ -434,7 +431,7 @@ ul a:hover {
     padding-bottom: 5vw;
   }
   .inside {
-    width: 70vw;
+    width: 80vw;
   }
   .title2 {
     padding-top: 3vw;
@@ -448,7 +445,7 @@ ul a:hover {
     height: auto;
   }
   .box {
-    width: 70vw;
+    width: 80vw;
     margin: 2vw;
     padding: 3vw;
   }
@@ -463,7 +460,10 @@ ul a:hover {
   }
   footer {
     height: auto;
-    flex-direction: column;
+    gap: 10%;
+  }
+  .logofoot {
+    display: flex;
     align-items: center;
   }
   .footertitle {
@@ -532,22 +532,18 @@ ul a:hover {
     left: 5vw;
   }
   .cta-btn {
-    width: 34vw;
-    height: 12vw;
-    font-size: 4vw;
+    width: 30vw;
+    height: 10vw;
+    font-size: 3vw;
     font-weight: 300;
   }
   .nav1 {
-    height: 10vw;
+    height: 15vw;
   }
   .nav1 p,
   .nav1 a {
     font-size: 2.2vw;
     font-weight: bolder;
-    padding-top: 2vw;
-  }
-  .nav2btn {
-    padding-bottom: 2vw;
   }
   .down a {
     padding: 4vw;
