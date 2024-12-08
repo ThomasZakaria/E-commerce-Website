@@ -407,10 +407,8 @@ ul a:hover {
 @media (max-width: 576px) {
   .content-section {
     flex-direction: column;
-    height: auto;
+    height: 100vh;
     margin-top: -2vh;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
   }
   .image-container {
     width: 80vw;
@@ -424,6 +422,10 @@ ul a:hover {
   }
   #learn2 {
     font-size: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: max-content;
+    white-space: nowrap;
   }
   .content-section2 {
     flex-direction: column;
@@ -454,13 +456,17 @@ ul a:hover {
   }
   #learn3 {
     font-size: 4vw;
-    padding: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     width: max-content;
     white-space: nowrap;
   }
   footer {
     height: auto;
     gap: 10%;
+  }
+  #center {
+    text-align: center;
   }
   .logofoot {
     display: flex;
@@ -469,6 +475,7 @@ ul a:hover {
   .footertitle {
     font-size: 4vw;
   }
+
   .logo {
     height: 8vw;
     padding-bottom: 5vw;
@@ -530,6 +537,14 @@ ul a:hover {
     width: 70vw;
     top: 60vw;
     left: 5vw;
+  }
+  .hero-section {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .bg {
+    height: 100vh;
+    width: auto;
   }
   .cta-btn {
     width: 30vw;
