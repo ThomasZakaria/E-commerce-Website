@@ -256,7 +256,8 @@ nav a {
   border: solid 1px black;
 }
 footer {
-  height: 30vw;
+  height: auto;
+  gap: 9vw;
   background-color: #32404d;
   display: flex;
   flex-direction: row;
@@ -466,10 +467,7 @@ ul a:hover {
     width: max-content;
     white-space: nowrap;
   }
-  footer {
-    height: auto;
-    gap: 7vw;
-  }
+
   #center {
     text-align: center;
   }
@@ -488,7 +486,7 @@ ul a:hover {
   }
   ul a,
   label {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .cont {
     justify-content: center;
