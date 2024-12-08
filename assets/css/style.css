@@ -444,6 +444,7 @@ ul a:hover {
   }
   .nav2btn img {
     display: block;
+    width: 6vw;
   }
   .inside {
     width: 80vw;
