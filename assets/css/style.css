@@ -101,7 +101,7 @@ body {
   font-weight: bolder;
 }
 .btn {
-  margin-left: 5%;
+  margin-left: 7%;
   display: flex;
   justify-content: flex-start;
 }
@@ -584,5 +584,10 @@ ul a:hover {
   }
   .nav1cont {
     padding-top: 1vw;
+  }
+  .nav1 {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
   }
 }
