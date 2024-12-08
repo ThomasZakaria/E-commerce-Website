@@ -73,6 +73,7 @@ body {
   transition: all 0.5s ease-in-out;
   margin-top: 1vw;
   font-size: 1.3vw;
+  cursor: pointer;
 }
 
 .cta-btn:hover {
@@ -509,6 +510,7 @@ ul a:hover {
     height: 7vw;
   }
   .author {
+    margin-top: 0vh;
     height: auto;
   }
   .author a {
