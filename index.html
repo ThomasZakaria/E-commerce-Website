@@ -13,22 +13,42 @@
   </head>
   <body>
     <nav class="nav1">
-      <div>
-        <p>
-          <span class="colored">ENDS TOMORROW:</span> Join Teachable for $4,800
-          in bonus content
-        </p>
+      <div class="nav1cont">
+        <div>
+          <p>
+            <span class="colored">ENDS TOMORROW:</span> Join Teachable for
+            $4,800 in bonus content
+          </p>
+        </div>
+        <div class="lrnmorecont">
+          <a href="#" class="learnmore">Learn more</a>
+        </div>
       </div>
       <div>
-        <a href="#">Learn more</a>
+        <button class="nav2btn" id="nav2btn">
+          <img src="assets/images/icons/menu-svgrepo-com.svg" alt="" />
+        </button>
+        <div class="down" id="down">
+          <a class="hovering" href="#">Home</a>
+          <a class="hovering" href="#">About</a>
+          <a class="hovering" href="#">Programs</a>
+          <a class="hovering c2" href="#">Blog</a>
+        </div>
       </div>
     </nav>
     <nav class="nav2">
-      <img class="logo" src="assets/images/logo.png.webp" alt="logo" />
+      <a href="#"
+        ><img class="logo" src="assets/images/logo.png.webp" alt="logo"
+      /></a>
       <a class="hovering" href="#">Home</a>
       <a class="hovering" href="#">About</a>
       <a class="hovering" href="#">Programs</a>
-      <a class="hovering" href="#">Blog</a>
+      <a class="hovering c2" href="#">Blog</a>
+      <div class="blogdiv">
+        <a href="#" class="description">Blog</a>
+        <a href="#" class="description">Blog details</a>
+        <a href="#" class="description">Elemnts</a>
+      </div>
       <a class="hovering" href="#">Contact</a>
       <a href="#"
         ><span class="highlight">Call Us :</span>
@@ -49,6 +69,7 @@
         </a>
       </div>
     </nav>
+
     <div class="hero-section">
       <div class="hero-text">
         <p class="tagline">Education & School</p>
@@ -60,7 +81,8 @@
         </p>
         <button class="cta-btn">Get Started Now</button>
       </div>
-      <img class="bg" src="assets/images/bg.webp" alt="background" />
+
+      <img class="bg" id="bg" src="assets/images/bg.webp" alt="background" />
     </div>
 
     <div class="content-section">
@@ -124,10 +146,14 @@
     </section>
     <footer>
       <div>
-        <img class="logo" src="assets/images/logo.png.webp" alt="logo" />
+        <img
+          class="logo"
+          src="assets/images/logo2_footer.png.webp"
+          alt="logo"
+        />
       </div>
       <div>
-        <p>Quick Links</p>
+        <p class="footertitle">Quick Links</p>
         <ul>
           <li><a href="#">Work</a></li>
           <li><a href="#">Services</a></li>
@@ -136,7 +162,7 @@
         </ul>
       </div>
       <div>
-        <p>Programs</p>
+        <p class="footertitle">Programs</p>
         <ul>
           <li><a href="#">Air Freight</a></li>
           <li><a href="#">Ocean Freight</a></li>
@@ -144,28 +170,58 @@
         </ul>
       </div>
       <div>
-        <p>Resources</p>
+        <p class="footertitle">Resources</p>
         <ul>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Submit Ticket</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
       </div>
+      <p class="footertitle">Newsletter</p>
       <div>
-        <p>Newsletter</p>
-        <form>
-          <label for="email">Subscribe to our newsletter to get updates:</label
-          ><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <button type="submit">Subscribe</button>
-        </form>
+        <div>
+          <form>
+            <label for="email"
+              >Subscribe to our newsletter to get updates:</label
+            >
+
+            <div class="cont">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <button type="button" id="btn">
+                <img src="assets/images/icons/Icon-send.svg" alt="Send Icon" />
+              </button>
+            </div>
+            <div class="iconss">
+              <p id="sbmt"></p>
+              <div class="icons2">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="assets/images/icons/facebook.svg" alt="facebook" />
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <img src="assets/images/icons/twitter.svg" alt="twitter" />
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <img src="assets/images/icons/linkedin.svg" alt="linkedin" />
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                  <img src="assets/images/icons/youtube.svg" alt="youtube" />
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="author">
+      <a href="https://www.linkedin.com/in/thomaszakaria" target="_blank"
+        >Developed with ❤️ by Thomas Zakaria</a
+      >
+    </div>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
